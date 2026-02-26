@@ -11941,7 +11941,7 @@
 			]
 		},
 		{
-			"id": 3052,
+			"id": 3072,
 			"name": "\"scheduler/components/popup/confirmation-dialog.d\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -11951,7 +11951,7 @@
 			"originalName": "D:/Scheduler/z-recurrence/latest/without-ny-changes/react-schedule-component/src/scheduler/components/popup/confirmation-dialog.d.ts",
 			"children": [
 				{
-					"id": 3053,
+					"id": 3073,
 					"name": "ConfirmationDialog",
 					"kind": 32,
 					"kindString": "Variable",
@@ -11997,7 +11997,7 @@
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						3053
+						3073
 					]
 				}
 			],
@@ -12010,7 +12010,7 @@
 			]
 		},
 		{
-			"id": 3054,
+			"id": 3074,
 			"name": "\"scheduler/components/popup/editor-popup-fields.d\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -12020,7 +12020,7 @@
 			"originalName": "D:/Scheduler/z-recurrence/latest/without-ny-changes/react-schedule-component/src/scheduler/components/popup/editor-popup-fields.d.ts",
 			"children": [
 				{
-					"id": 3055,
+					"id": 3075,
 					"name": "EditorPopupFields",
 					"kind": 32,
 					"kindString": "Variable",
@@ -12052,7 +12052,7 @@
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						3055
+						3075
 					]
 				}
 			],
@@ -12065,7 +12065,7 @@
 			]
 		},
 		{
-			"id": 3056,
+			"id": 3076,
 			"name": "\"scheduler/components/popup/editor-popup.d\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -12075,7 +12075,7 @@
 			"originalName": "D:/Scheduler/z-recurrence/latest/without-ny-changes/react-schedule-component/src/scheduler/components/popup/editor-popup.d.ts",
 			"children": [
 				{
-					"id": 3057,
+					"id": 3077,
 					"name": "SchedulerEditorPopup",
 					"kind": 32,
 					"kindString": "Variable",
@@ -12108,7 +12108,7 @@
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						3057
+						3077
 					]
 				}
 			],
@@ -12121,7 +12121,7 @@
 			]
 		},
 		{
-			"id": 3058,
+			"id": 3078,
 			"name": "\"scheduler/components/popup/more-popup.d\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -12131,7 +12131,7 @@
 			"originalName": "D:/Scheduler/z-recurrence/latest/without-ny-changes/react-schedule-component/src/scheduler/components/popup/more-popup.d.ts",
 			"children": [
 				{
-					"id": 3059,
+					"id": 3079,
 					"name": "IMorePopup",
 					"kind": 256,
 					"kindString": "Interface",
@@ -12144,7 +12144,7 @@
 					},
 					"children": [
 						{
-							"id": 3060,
+							"id": 3080,
 							"name": "open",
 							"kind": 1024,
 							"kindString": "Property",
@@ -12164,7 +12164,7 @@
 							"type": {
 								"type": "reflection",
 								"declaration": {
-									"id": 3061,
+									"id": 3081,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -12173,7 +12173,7 @@
 									},
 									"signatures": [
 										{
-											"id": 3062,
+											"id": 3082,
 											"name": "__call",
 											"kind": 4096,
 											"kindString": "Call signature",
@@ -12182,7 +12182,7 @@
 											},
 											"parameters": [
 												{
-													"id": 3063,
+													"id": 3083,
 													"name": "date",
 													"kind": 32768,
 													"kindString": "Parameter",
@@ -12195,7 +12195,7 @@
 													}
 												},
 												{
-													"id": 3064,
+													"id": 3084,
 													"name": "events",
 													"kind": 32768,
 													"kindString": "Parameter",
@@ -12212,7 +12212,7 @@
 													}
 												},
 												{
-													"id": 3065,
+													"id": 3085,
 													"name": "element",
 													"kind": 32768,
 													"kindString": "Parameter",
@@ -12247,7 +12247,7 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								3060
+								3080
 							]
 						}
 					],
@@ -12260,7 +12260,7 @@
 					]
 				},
 				{
-					"id": 3066,
+					"id": 3086,
 					"name": "MorePopup",
 					"kind": 32,
 					"kindString": "Variable",
@@ -12286,7 +12286,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"id": 3059,
+										"id": 3079,
 										"name": "IMorePopup"
 									}
 								],
@@ -12302,14 +12302,14 @@
 					"title": "Interfaces",
 					"kind": 256,
 					"children": [
-						3059
+						3079
 					]
 				},
 				{
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						3066
+						3086
 					]
 				}
 			],
@@ -12322,7 +12322,7 @@
 			]
 		},
 		{
-			"id": 3067,
+			"id": 3087,
 			"name": "\"scheduler/components/popup/quick-info-popup.d\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -12332,7 +12332,7 @@
 			"originalName": "D:/Scheduler/z-recurrence/latest/without-ny-changes/react-schedule-component/src/scheduler/components/popup/quick-info-popup.d.ts",
 			"children": [
 				{
-					"id": 3084,
+					"id": 3104,
 					"name": "BaseImperativeHandleMethods",
 					"kind": 256,
 					"kindString": "Interface",
@@ -12345,7 +12345,7 @@
 					},
 					"children": [
 						{
-							"id": 3091,
+							"id": 3111,
 							"name": "element",
 							"kind": 1024,
 							"kindString": "Property",
@@ -12374,7 +12374,7 @@
 							}
 						},
 						{
-							"id": 3088,
+							"id": 3108,
 							"name": "hide",
 							"kind": 1024,
 							"kindString": "Property",
@@ -12391,7 +12391,7 @@
 							"type": {
 								"type": "reflection",
 								"declaration": {
-									"id": 3089,
+									"id": 3109,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -12400,7 +12400,7 @@
 									},
 									"signatures": [
 										{
-											"id": 3090,
+											"id": 3110,
 											"name": "__call",
 											"kind": 4096,
 											"kindString": "Call signature",
@@ -12424,7 +12424,7 @@
 							}
 						},
 						{
-							"id": 3085,
+							"id": 3105,
 							"name": "show",
 							"kind": 1024,
 							"kindString": "Property",
@@ -12441,7 +12441,7 @@
 							"type": {
 								"type": "reflection",
 								"declaration": {
-									"id": 3086,
+									"id": 3106,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -12450,7 +12450,7 @@
 									},
 									"signatures": [
 										{
-											"id": 3087,
+											"id": 3107,
 											"name": "__call",
 											"kind": 4096,
 											"kindString": "Call signature",
@@ -12479,9 +12479,9 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								3091,
-								3088,
-								3085
+								3111,
+								3108,
+								3105
 							]
 						}
 					],
@@ -12494,7 +12494,7 @@
 					]
 				},
 				{
-					"id": 3103,
+					"id": 3123,
 					"name": "IQuickInfoPopup",
 					"kind": 256,
 					"kindString": "Interface",
@@ -12507,7 +12507,7 @@
 					},
 					"children": [
 						{
-							"id": 3126,
+							"id": 3146,
 							"name": "element",
 							"kind": 1024,
 							"kindString": "Property",
@@ -12539,12 +12539,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 3102,
+								"id": 3122,
 								"name": "ISchedulerPopupBase.element"
 							}
 						},
 						{
-							"id": 3123,
+							"id": 3143,
 							"name": "focus",
 							"kind": 1024,
 							"kindString": "Property",
@@ -12565,7 +12565,7 @@
 							"type": {
 								"type": "reflection",
 								"declaration": {
-									"id": 3124,
+									"id": 3144,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -12574,7 +12574,7 @@
 									},
 									"signatures": [
 										{
-											"id": 3125,
+											"id": 3145,
 											"name": "__call",
 											"kind": 4096,
 											"kindString": "Call signature",
@@ -12598,12 +12598,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 3099,
+								"id": 3119,
 								"name": "ISchedulerPopupBase.focus"
 							}
 						},
 						{
-							"id": 3104,
+							"id": 3124,
 							"name": "handleCellClick",
 							"kind": 1024,
 							"kindString": "Property",
@@ -12623,7 +12623,7 @@
 							"type": {
 								"type": "reflection",
 								"declaration": {
-									"id": 3105,
+									"id": 3125,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -12632,7 +12632,7 @@
 									},
 									"signatures": [
 										{
-											"id": 3106,
+											"id": 3126,
 											"name": "__call",
 											"kind": 4096,
 											"kindString": "Call signature",
@@ -12641,7 +12641,7 @@
 											},
 											"parameters": [
 												{
-													"id": 3107,
+													"id": 3127,
 													"name": "data",
 													"kind": 32768,
 													"kindString": "Parameter",
@@ -12655,7 +12655,7 @@
 													}
 												},
 												{
-													"id": 3108,
+													"id": 3128,
 													"name": "element",
 													"kind": 32768,
 													"kindString": "Parameter",
@@ -12685,7 +12685,7 @@
 							}
 						},
 						{
-							"id": 3114,
+							"id": 3134,
 							"name": "handleDelete",
 							"kind": 1024,
 							"kindString": "Property",
@@ -12705,7 +12705,7 @@
 							"type": {
 								"type": "reflection",
 								"declaration": {
-									"id": 3115,
+									"id": 3135,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -12714,7 +12714,7 @@
 									},
 									"signatures": [
 										{
-											"id": 3116,
+											"id": 3136,
 											"name": "__call",
 											"kind": 4096,
 											"kindString": "Call signature",
@@ -12738,7 +12738,7 @@
 							}
 						},
 						{
-							"id": 3109,
+							"id": 3129,
 							"name": "handleEventClick",
 							"kind": 1024,
 							"kindString": "Property",
@@ -12758,7 +12758,7 @@
 							"type": {
 								"type": "reflection",
 								"declaration": {
-									"id": 3110,
+									"id": 3130,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -12767,7 +12767,7 @@
 									},
 									"signatures": [
 										{
-											"id": 3111,
+											"id": 3131,
 											"name": "__call",
 											"kind": 4096,
 											"kindString": "Call signature",
@@ -12776,7 +12776,7 @@
 											},
 											"parameters": [
 												{
-													"id": 3112,
+													"id": 3132,
 													"name": "data",
 													"kind": 32768,
 													"kindString": "Parameter",
@@ -12790,7 +12790,7 @@
 													}
 												},
 												{
-													"id": 3113,
+													"id": 3133,
 													"name": "element",
 													"kind": 32768,
 													"kindString": "Parameter",
@@ -12820,7 +12820,7 @@
 							}
 						},
 						{
-							"id": 3120,
+							"id": 3140,
 							"name": "hide",
 							"kind": 1024,
 							"kindString": "Property",
@@ -12840,7 +12840,7 @@
 							"type": {
 								"type": "reflection",
 								"declaration": {
-									"id": 3121,
+									"id": 3141,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -12849,7 +12849,7 @@
 									},
 									"signatures": [
 										{
-											"id": 3122,
+											"id": 3142,
 											"name": "__call",
 											"kind": 4096,
 											"kindString": "Call signature",
@@ -12873,12 +12873,12 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 3096,
+								"id": 3116,
 								"name": "ISchedulerPopupBase.hide"
 							}
 						},
 						{
-							"id": 3117,
+							"id": 3137,
 							"name": "show",
 							"kind": 1024,
 							"kindString": "Property",
@@ -12898,7 +12898,7 @@
 							"type": {
 								"type": "reflection",
 								"declaration": {
-									"id": 3118,
+									"id": 3138,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -12907,7 +12907,7 @@
 									},
 									"signatures": [
 										{
-											"id": 3119,
+											"id": 3139,
 											"name": "__call",
 											"kind": 4096,
 											"kindString": "Call signature",
@@ -12931,7 +12931,7 @@
 							},
 							"inheritedFrom": {
 								"type": "reference",
-								"id": 3093,
+								"id": 3113,
 								"name": "ISchedulerPopupBase.show"
 							}
 						}
@@ -12941,13 +12941,13 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								3126,
-								3123,
-								3104,
-								3114,
-								3109,
-								3120,
-								3117
+								3146,
+								3143,
+								3124,
+								3134,
+								3129,
+								3140,
+								3137
 							]
 						}
 					],
@@ -12961,13 +12961,13 @@
 					"extendedTypes": [
 						{
 							"type": "reference",
-							"id": 3092,
+							"id": 3112,
 							"name": "ISchedulerPopupBase"
 						}
 					]
 				},
 				{
-					"id": 3092,
+					"id": 3112,
 					"name": "ISchedulerPopupBase",
 					"kind": 256,
 					"kindString": "Interface",
@@ -12980,7 +12980,7 @@
 					},
 					"children": [
 						{
-							"id": 3102,
+							"id": 3122,
 							"name": "element",
 							"kind": 1024,
 							"kindString": "Property",
@@ -13012,7 +13012,7 @@
 							}
 						},
 						{
-							"id": 3099,
+							"id": 3119,
 							"name": "focus",
 							"kind": 1024,
 							"kindString": "Property",
@@ -13033,7 +13033,7 @@
 							"type": {
 								"type": "reflection",
 								"declaration": {
-									"id": 3100,
+									"id": 3120,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -13042,7 +13042,7 @@
 									},
 									"signatures": [
 										{
-											"id": 3101,
+											"id": 3121,
 											"name": "__call",
 											"kind": 4096,
 											"kindString": "Call signature",
@@ -13066,7 +13066,7 @@
 							}
 						},
 						{
-							"id": 3096,
+							"id": 3116,
 							"name": "hide",
 							"kind": 1024,
 							"kindString": "Property",
@@ -13081,6 +13081,190 @@
 									"fileName": "src/scheduler/components/popup/quick-info-popup.d.ts",
 									"line": 67,
 									"character": 8
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 3117,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {
+										"isExported": true
+									},
+									"signatures": [
+										{
+											"id": 3118,
+											"name": "__call",
+											"kind": 4096,
+											"kindString": "Call signature",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "void"
+											}
+										}
+									],
+									"sources": [
+										{
+											"fileName": "src/scheduler/components/popup/quick-info-popup.d.ts",
+											"line": 67,
+											"character": 9
+										}
+									]
+								}
+							}
+						},
+						{
+							"id": 3113,
+							"name": "show",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "Show the popup"
+							},
+							"sources": [
+								{
+									"fileName": "src/scheduler/components/popup/quick-info-popup.d.ts",
+									"line": 63,
+									"character": 8
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 3114,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {
+										"isExported": true
+									},
+									"signatures": [
+										{
+											"id": 3115,
+											"name": "__call",
+											"kind": 4096,
+											"kindString": "Call signature",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "void"
+											}
+										}
+									],
+									"sources": [
+										{
+											"fileName": "src/scheduler/components/popup/quick-info-popup.d.ts",
+											"line": 63,
+											"character": 9
+										}
+									]
+								}
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								3122,
+								3119,
+								3116,
+								3113
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "src/scheduler/components/popup/quick-info-popup.d.ts",
+							"line": 59,
+							"character": 36
+						}
+					],
+					"extendedBy": [
+						{
+							"type": "reference",
+							"id": 3123,
+							"name": "IQuickInfoPopup"
+						}
+					]
+				},
+				{
+					"id": 3088,
+					"name": "PopupWrapperProps",
+					"kind": 256,
+					"kindString": "Interface",
+					"flags": {
+						"isPrivate": true,
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "Props interface for PopupWrapper component"
+					},
+					"children": [
+						{
+							"id": 3103,
+							"name": "adaptive",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "src/scheduler/components/popup/quick-info-popup.d.ts",
+									"line": 27,
+									"character": 12
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							}
+						},
+						{
+							"id": 3102,
+							"name": "children",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "src/scheduler/components/popup/quick-info-popup.d.ts",
+									"line": 26,
+									"character": 12
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "ReactNode"
+							}
+						},
+						{
+							"id": 3096,
+							"name": "onClose",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "src/scheduler/components/popup/quick-info-popup.d.ts",
+									"line": 24,
+									"character": 11
 								}
 							],
 							"type": {
@@ -13111,190 +13295,6 @@
 									"sources": [
 										{
 											"fileName": "src/scheduler/components/popup/quick-info-popup.d.ts",
-											"line": 67,
-											"character": 9
-										}
-									]
-								}
-							}
-						},
-						{
-							"id": 3093,
-							"name": "show",
-							"kind": 1024,
-							"kindString": "Property",
-							"flags": {
-								"isExported": true
-							},
-							"comment": {
-								"shortText": "Show the popup"
-							},
-							"sources": [
-								{
-									"fileName": "src/scheduler/components/popup/quick-info-popup.d.ts",
-									"line": 63,
-									"character": 8
-								}
-							],
-							"type": {
-								"type": "reflection",
-								"declaration": {
-									"id": 3094,
-									"name": "__type",
-									"kind": 65536,
-									"kindString": "Type literal",
-									"flags": {
-										"isExported": true
-									},
-									"signatures": [
-										{
-											"id": 3095,
-											"name": "__call",
-											"kind": 4096,
-											"kindString": "Call signature",
-											"flags": {
-												"isExported": true
-											},
-											"type": {
-												"type": "intrinsic",
-												"name": "void"
-											}
-										}
-									],
-									"sources": [
-										{
-											"fileName": "src/scheduler/components/popup/quick-info-popup.d.ts",
-											"line": 63,
-											"character": 9
-										}
-									]
-								}
-							}
-						}
-					],
-					"groups": [
-						{
-							"title": "Properties",
-							"kind": 1024,
-							"children": [
-								3102,
-								3099,
-								3096,
-								3093
-							]
-						}
-					],
-					"sources": [
-						{
-							"fileName": "src/scheduler/components/popup/quick-info-popup.d.ts",
-							"line": 59,
-							"character": 36
-						}
-					],
-					"extendedBy": [
-						{
-							"type": "reference",
-							"id": 3103,
-							"name": "IQuickInfoPopup"
-						}
-					]
-				},
-				{
-					"id": 3068,
-					"name": "PopupWrapperProps",
-					"kind": 256,
-					"kindString": "Interface",
-					"flags": {
-						"isPrivate": true,
-						"isExported": true
-					},
-					"comment": {
-						"shortText": "Props interface for PopupWrapper component"
-					},
-					"children": [
-						{
-							"id": 3083,
-							"name": "adaptive",
-							"kind": 1024,
-							"kindString": "Property",
-							"flags": {
-								"isExported": true
-							},
-							"sources": [
-								{
-									"fileName": "src/scheduler/components/popup/quick-info-popup.d.ts",
-									"line": 27,
-									"character": 12
-								}
-							],
-							"type": {
-								"type": "intrinsic",
-								"name": "boolean"
-							}
-						},
-						{
-							"id": 3082,
-							"name": "children",
-							"kind": 1024,
-							"kindString": "Property",
-							"flags": {
-								"isExported": true
-							},
-							"sources": [
-								{
-									"fileName": "src/scheduler/components/popup/quick-info-popup.d.ts",
-									"line": 26,
-									"character": 12
-								}
-							],
-							"type": {
-								"type": "reference",
-								"name": "ReactNode"
-							}
-						},
-						{
-							"id": 3076,
-							"name": "onClose",
-							"kind": 1024,
-							"kindString": "Property",
-							"flags": {
-								"isExported": true
-							},
-							"sources": [
-								{
-									"fileName": "src/scheduler/components/popup/quick-info-popup.d.ts",
-									"line": 24,
-									"character": 11
-								}
-							],
-							"type": {
-								"type": "reflection",
-								"declaration": {
-									"id": 3077,
-									"name": "__type",
-									"kind": 65536,
-									"kindString": "Type literal",
-									"flags": {
-										"isExported": true
-									},
-									"signatures": [
-										{
-											"id": 3078,
-											"name": "__call",
-											"kind": 4096,
-											"kindString": "Call signature",
-											"flags": {
-												"isExported": true
-											},
-											"type": {
-												"type": "intrinsic",
-												"name": "void"
-											}
-										}
-									],
-									"sources": [
-										{
-											"fileName": "src/scheduler/components/popup/quick-info-popup.d.ts",
 											"line": 24,
 											"character": 12
 										}
@@ -13303,7 +13303,7 @@
 							}
 						},
 						{
-							"id": 3079,
+							"id": 3099,
 							"name": "onOpen",
 							"kind": 1024,
 							"kindString": "Property",
@@ -13321,7 +13321,7 @@
 							"type": {
 								"type": "reflection",
 								"declaration": {
-									"id": 3080,
+									"id": 3100,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -13330,7 +13330,7 @@
 									},
 									"signatures": [
 										{
-											"id": 3081,
+											"id": 3101,
 											"name": "__call",
 											"kind": 4096,
 											"kindString": "Call signature",
@@ -13354,7 +13354,7 @@
 							}
 						},
 						{
-							"id": 3071,
+							"id": 3091,
 							"name": "popupPosition",
 							"kind": 1024,
 							"kindString": "Property",
@@ -13372,7 +13372,7 @@
 							"type": {
 								"type": "reflection",
 								"declaration": {
-									"id": 3072,
+									"id": 3092,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -13381,7 +13381,7 @@
 									},
 									"children": [
 										{
-											"id": 3073,
+											"id": 3093,
 											"name": "X",
 											"kind": 32,
 											"kindString": "Variable",
@@ -13401,7 +13401,7 @@
 											}
 										},
 										{
-											"id": 3074,
+											"id": 3094,
 											"name": "Y",
 											"kind": 32,
 											"kindString": "Variable",
@@ -13426,8 +13426,8 @@
 											"title": "Variables",
 											"kind": 32,
 											"children": [
-												3073,
-												3074
+												3093,
+												3094
 											]
 										}
 									],
@@ -13442,7 +13442,7 @@
 							}
 						},
 						{
-							"id": 3075,
+							"id": 3095,
 							"name": "schedulerElement",
 							"kind": 1024,
 							"kindString": "Property",
@@ -13477,7 +13477,7 @@
 							}
 						},
 						{
-							"id": 3070,
+							"id": 3090,
 							"name": "target",
 							"kind": 1024,
 							"kindString": "Property",
@@ -13506,7 +13506,7 @@
 							}
 						},
 						{
-							"id": 3069,
+							"id": 3089,
 							"name": "visible",
 							"kind": 1024,
 							"kindString": "Property",
@@ -13531,14 +13531,14 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								3083,
-								3082,
-								3076,
-								3079,
-								3071,
-								3075,
-								3070,
-								3069
+								3103,
+								3102,
+								3096,
+								3099,
+								3091,
+								3095,
+								3090,
+								3089
 							]
 						}
 					],
@@ -13551,7 +13551,7 @@
 					]
 				},
 				{
-					"id": 3127,
+					"id": 3147,
 					"name": "QuickInfoPopupProps",
 					"kind": 256,
 					"kindString": "Interface",
@@ -13564,7 +13564,7 @@
 					},
 					"children": [
 						{
-							"id": 3128,
+							"id": 3148,
 							"name": "onClose",
 							"kind": 1024,
 							"kindString": "Property",
@@ -13582,7 +13582,7 @@
 							"type": {
 								"type": "reflection",
 								"declaration": {
-									"id": 3129,
+									"id": 3149,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -13591,7 +13591,7 @@
 									},
 									"signatures": [
 										{
-											"id": 3130,
+											"id": 3150,
 											"name": "__call",
 											"kind": 4096,
 											"kindString": "Call signature",
@@ -13615,7 +13615,7 @@
 							}
 						},
 						{
-							"id": 3131,
+							"id": 3151,
 							"name": "onEditEvent",
 							"kind": 1024,
 							"kindString": "Property",
@@ -13632,7 +13632,7 @@
 							"type": {
 								"type": "reflection",
 								"declaration": {
-									"id": 3132,
+									"id": 3152,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -13641,7 +13641,7 @@
 									},
 									"signatures": [
 										{
-											"id": 3133,
+											"id": 3153,
 											"name": "__call",
 											"kind": 4096,
 											"kindString": "Call signature",
@@ -13650,7 +13650,7 @@
 											},
 											"parameters": [
 												{
-													"id": 3134,
+													"id": 3154,
 													"name": "eventData",
 													"kind": 32768,
 													"kindString": "Parameter",
@@ -13681,7 +13681,7 @@
 							}
 						},
 						{
-							"id": 3135,
+							"id": 3155,
 							"name": "onMoreDetails",
 							"kind": 1024,
 							"kindString": "Property",
@@ -13698,7 +13698,7 @@
 							"type": {
 								"type": "reflection",
 								"declaration": {
-									"id": 3136,
+									"id": 3156,
 									"name": "__type",
 									"kind": 65536,
 									"kindString": "Type literal",
@@ -13707,7 +13707,7 @@
 									},
 									"signatures": [
 										{
-											"id": 3137,
+											"id": 3157,
 											"name": "__call",
 											"kind": 4096,
 											"kindString": "Call signature",
@@ -13716,7 +13716,7 @@
 											},
 											"parameters": [
 												{
-													"id": 3138,
+													"id": 3158,
 													"name": "cellData",
 													"kind": 32768,
 													"kindString": "Parameter",
@@ -13752,9 +13752,9 @@
 							"title": "Properties",
 							"kind": 1024,
 							"children": [
-								3128,
-								3131,
-								3135
+								3148,
+								3151,
+								3155
 							]
 						}
 					],
@@ -13767,7 +13767,7 @@
 					]
 				},
 				{
-					"id": 3146,
+					"id": 3166,
 					"name": "PopupWrapper",
 					"kind": 32,
 					"kindString": "Variable",
@@ -13801,7 +13801,7 @@
 						"typeArguments": [
 							{
 								"type": "reference",
-								"id": 3068,
+								"id": 3088,
 								"name": "PopupWrapperProps"
 							}
 						],
@@ -13809,7 +13809,7 @@
 					}
 				},
 				{
-					"id": 3152,
+					"id": 3172,
 					"name": "QuickInfoPopup",
 					"kind": 32,
 					"kindString": "Variable",
@@ -13835,7 +13835,7 @@
 								"types": [
 									{
 										"type": "reference",
-										"id": 3127,
+										"id": 3147,
 										"name": "QuickInfoPopupProps"
 									},
 									{
@@ -13843,7 +13843,7 @@
 										"typeArguments": [
 											{
 												"type": "reference",
-												"id": 3103,
+												"id": 3123,
 												"name": "IQuickInfoPopup"
 											}
 										],
@@ -13856,7 +13856,7 @@
 					}
 				},
 				{
-					"id": 3147,
+					"id": 3167,
 					"name": "createBaseImperativeHandle",
 					"kind": 32,
 					"kindString": "Variable",
@@ -13893,7 +13893,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 3148,
+							"id": 3168,
 							"name": "__type",
 							"kind": 65536,
 							"kindString": "Type literal",
@@ -13902,7 +13902,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3149,
+									"id": 3169,
 									"name": "__call",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -13911,7 +13911,7 @@
 									},
 									"parameters": [
 										{
-											"id": 3150,
+											"id": 3170,
 											"name": "setVisible",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -13936,7 +13936,7 @@
 											}
 										},
 										{
-											"id": 3151,
+											"id": 3171,
 											"name": "popupElement",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -13957,7 +13957,7 @@
 									],
 									"type": {
 										"type": "reference",
-										"id": 3084,
+										"id": 3104,
 										"name": "BaseImperativeHandleMethods"
 									}
 								}
@@ -13973,7 +13973,7 @@
 					}
 				},
 				{
-					"id": 3139,
+					"id": 3159,
 					"name": "renderPopupCloseButton",
 					"kind": 32,
 					"kindString": "Variable",
@@ -14010,7 +14010,7 @@
 					"type": {
 						"type": "reflection",
 						"declaration": {
-							"id": 3140,
+							"id": 3160,
 							"name": "__type",
 							"kind": 65536,
 							"kindString": "Type literal",
@@ -14019,7 +14019,7 @@
 							},
 							"signatures": [
 								{
-									"id": 3141,
+									"id": 3161,
 									"name": "__call",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -14028,7 +14028,7 @@
 									},
 									"parameters": [
 										{
-											"id": 3142,
+											"id": 3162,
 											"name": "onClose",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -14038,7 +14038,7 @@
 											"type": {
 												"type": "reflection",
 												"declaration": {
-													"id": 3143,
+													"id": 3163,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
@@ -14047,7 +14047,7 @@
 													},
 													"signatures": [
 														{
-															"id": 3144,
+															"id": 3164,
 															"name": "__call",
 															"kind": 4096,
 															"kindString": "Call signature",
@@ -14071,7 +14071,7 @@
 											}
 										},
 										{
-											"id": 3145,
+											"id": 3165,
 											"name": "ariaLabel",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -14107,21 +14107,21 @@
 					"title": "Interfaces",
 					"kind": 256,
 					"children": [
-						3084,
-						3103,
-						3092,
-						3068,
-						3127
+						3104,
+						3123,
+						3112,
+						3088,
+						3147
 					]
 				},
 				{
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						3146,
-						3152,
-						3147,
-						3139
+						3166,
+						3172,
+						3167,
+						3159
 					]
 				}
 			],
@@ -14134,7 +14134,7 @@
 			]
 		},
 		{
-			"id": 3153,
+			"id": 3173,
 			"name": "\"scheduler/components/popup/recurrence-editor-dialog.d\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -16813,6 +16813,10 @@
 									{
 										"type": "stringLiteral",
 										"value": "recurrenceDelete"
+									},
+									{
+										"type": "stringLiteral",
+										"value": "seriesChange"
 									}
 								]
 							}
@@ -20609,7 +20613,7 @@
 							{
 								"tag": "param",
 								"text": "Callback to show recurrence edit options.",
-								"param": "showRecurrenceAlert"
+								"param": "showRecurrenceEditAlert"
 							},
 							{
 								"tag": "param",
@@ -20815,7 +20819,7 @@
 										},
 										{
 											"id": 1097,
-											"name": "showRecurrenceAlert",
+											"name": "showRecurrenceEditAlert",
 											"kind": 32768,
 											"kindString": "Parameter",
 											"flags": {
@@ -20895,7 +20899,7 @@
 																				{
 																					"fileName": "src/scheduler/hooks/useEditorPopup.d.ts",
 																					"line": 67,
-																					"character": 223
+																					"character": 227
 																				}
 																			]
 																		}
@@ -20912,7 +20916,7 @@
 														{
 															"fileName": "src/scheduler/hooks/useEditorPopup.d.ts",
 															"line": 67,
-															"character": 212
+															"character": 216
 														}
 													]
 												}
@@ -23048,7 +23052,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"id": 3103,
+										"id": 3123,
 										"name": "IQuickInfoPopup"
 									}
 								],
@@ -23151,7 +23155,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"id": 3103,
+										"id": 3123,
 										"name": "IQuickInfoPopup"
 									}
 								],
@@ -24247,7 +24251,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"id": 3103,
+										"id": 3123,
 										"name": "IQuickInfoPopup"
 									}
 								],
@@ -24277,7 +24281,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"id": 3103,
+										"id": 3123,
 										"name": "IQuickInfoPopup"
 									}
 								],
@@ -39681,6 +39685,14 @@
 							{
 								"type": "stringLiteral",
 								"value": "following"
+							},
+							{
+								"type": "stringLiteral",
+								"value": "yes"
+							},
+							{
+								"type": "stringLiteral",
+								"value": "no"
 							}
 						]
 					}
@@ -43110,7 +43122,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"id": 3059,
+										"id": 3079,
 										"name": "IMorePopup"
 									}
 								],
@@ -43252,7 +43264,7 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"id": 3103,
+										"id": 3123,
 										"name": "IQuickInfoPopup"
 									}
 								],
@@ -43561,160 +43573,6 @@
 							}
 						},
 						{
-							"id": 1903,
-							"name": "showRecurrenceAlert",
-							"kind": 1024,
-							"kindString": "Property",
-							"flags": {
-								"isExported": true,
-								"isOptional": true
-							},
-							"comment": {
-								"shortText": "Handler to show recurrence confirmation dialog when editing recurring events",
-								"tags": [
-									{
-										"tag": "param",
-										"text": "Function to execute when editing this event only",
-										"param": "onEditThisEvent"
-									},
-									{
-										"tag": "param",
-										"text": "Function to execute when editing entire series\n",
-										"param": "onEditSeries"
-									}
-								]
-							},
-							"sources": [
-								{
-									"fileName": "src/scheduler/types/internal-interface.d.ts",
-									"line": 68,
-									"character": 23
-								}
-							],
-							"type": {
-								"type": "reflection",
-								"declaration": {
-									"id": 1904,
-									"name": "__type",
-									"kind": 65536,
-									"kindString": "Type literal",
-									"flags": {
-										"isExported": true
-									},
-									"signatures": [
-										{
-											"id": 1905,
-											"name": "__call",
-											"kind": 4096,
-											"kindString": "Call signature",
-											"flags": {
-												"isExported": true
-											},
-											"parameters": [
-												{
-													"id": 1906,
-													"name": "onEditThisEvent",
-													"kind": 32768,
-													"kindString": "Parameter",
-													"flags": {
-														"isExported": true
-													},
-													"type": {
-														"type": "reflection",
-														"declaration": {
-															"id": 1907,
-															"name": "__type",
-															"kind": 65536,
-															"kindString": "Type literal",
-															"flags": {
-																"isExported": true
-															},
-															"signatures": [
-																{
-																	"id": 1908,
-																	"name": "__call",
-																	"kind": 4096,
-																	"kindString": "Call signature",
-																	"flags": {
-																		"isExported": true
-																	},
-																	"type": {
-																		"type": "intrinsic",
-																		"name": "void"
-																	}
-																}
-															],
-															"sources": [
-																{
-																	"fileName": "src/scheduler/types/internal-interface.d.ts",
-																	"line": 68,
-																	"character": 43
-																}
-															]
-														}
-													}
-												},
-												{
-													"id": 1909,
-													"name": "onEditSeries",
-													"kind": 32768,
-													"kindString": "Parameter",
-													"flags": {
-														"isExported": true
-													},
-													"type": {
-														"type": "reflection",
-														"declaration": {
-															"id": 1910,
-															"name": "__type",
-															"kind": 65536,
-															"kindString": "Type literal",
-															"flags": {
-																"isExported": true
-															},
-															"signatures": [
-																{
-																	"id": 1911,
-																	"name": "__call",
-																	"kind": 4096,
-																	"kindString": "Call signature",
-																	"flags": {
-																		"isExported": true
-																	},
-																	"type": {
-																		"type": "intrinsic",
-																		"name": "void"
-																	}
-																}
-															],
-															"sources": [
-																{
-																	"fileName": "src/scheduler/types/internal-interface.d.ts",
-																	"line": 68,
-																	"character": 69
-																}
-															]
-														}
-													}
-												}
-											],
-											"type": {
-												"type": "intrinsic",
-												"name": "void"
-											}
-										}
-									],
-									"sources": [
-										{
-											"fileName": "src/scheduler/types/internal-interface.d.ts",
-											"line": 68,
-											"character": 25
-										}
-									]
-								}
-							}
-						},
-						{
 							"id": 1912,
 							"name": "showRecurrenceDeleteAlert",
 							"kind": 1024,
@@ -43831,6 +43689,160 @@
 											"fileName": "src/scheduler/types/internal-interface.d.ts",
 											"line": 74,
 											"character": 31
+										}
+									]
+								}
+							}
+						},
+						{
+							"id": 1903,
+							"name": "showRecurrenceEditAlert",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isOptional": true
+							},
+							"comment": {
+								"shortText": "Handler to show recurrence confirmation dialog when editing recurring events",
+								"tags": [
+									{
+										"tag": "param",
+										"text": "Function to execute when editing this event only",
+										"param": "onEditThisEvent"
+									},
+									{
+										"tag": "param",
+										"text": "Function to execute when editing entire series\n",
+										"param": "onEditSeries"
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "src/scheduler/types/internal-interface.d.ts",
+									"line": 68,
+									"character": 27
+								}
+							],
+							"type": {
+								"type": "reflection",
+								"declaration": {
+									"id": 1904,
+									"name": "__type",
+									"kind": 65536,
+									"kindString": "Type literal",
+									"flags": {
+										"isExported": true
+									},
+									"signatures": [
+										{
+											"id": 1905,
+											"name": "__call",
+											"kind": 4096,
+											"kindString": "Call signature",
+											"flags": {
+												"isExported": true
+											},
+											"parameters": [
+												{
+													"id": 1906,
+													"name": "onEditThisEvent",
+													"kind": 32768,
+													"kindString": "Parameter",
+													"flags": {
+														"isExported": true
+													},
+													"type": {
+														"type": "reflection",
+														"declaration": {
+															"id": 1907,
+															"name": "__type",
+															"kind": 65536,
+															"kindString": "Type literal",
+															"flags": {
+																"isExported": true
+															},
+															"signatures": [
+																{
+																	"id": 1908,
+																	"name": "__call",
+																	"kind": 4096,
+																	"kindString": "Call signature",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "void"
+																	}
+																}
+															],
+															"sources": [
+																{
+																	"fileName": "src/scheduler/types/internal-interface.d.ts",
+																	"line": 68,
+																	"character": 47
+																}
+															]
+														}
+													}
+												},
+												{
+													"id": 1909,
+													"name": "onEditSeries",
+													"kind": 32768,
+													"kindString": "Parameter",
+													"flags": {
+														"isExported": true
+													},
+													"type": {
+														"type": "reflection",
+														"declaration": {
+															"id": 1910,
+															"name": "__type",
+															"kind": 65536,
+															"kindString": "Type literal",
+															"flags": {
+																"isExported": true
+															},
+															"signatures": [
+																{
+																	"id": 1911,
+																	"name": "__call",
+																	"kind": 4096,
+																	"kindString": "Call signature",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "void"
+																	}
+																}
+															],
+															"sources": [
+																{
+																	"fileName": "src/scheduler/types/internal-interface.d.ts",
+																	"line": 68,
+																	"character": 73
+																}
+															]
+														}
+													}
+												}
+											],
+											"type": {
+												"type": "intrinsic",
+												"name": "void"
+											}
+										}
+									],
+									"sources": [
+										{
+											"fileName": "src/scheduler/types/internal-interface.d.ts",
+											"line": 68,
+											"character": 29
 										}
 									]
 								}
@@ -44510,8 +44522,8 @@
 								1930,
 								1896,
 								1942,
-								1903,
 								1912,
+								1903,
 								1936,
 								2062,
 								2026,
@@ -66857,6 +66869,80 @@
 					]
 				},
 				{
+					"id": 2976,
+					"name": "getRecurrenceMaxId",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 2977,
+							"name": "getRecurrenceMaxId",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "Validates whether a recurring event can be dragged to a new start time",
+								"returns": "- Returns parent event\n"
+							},
+							"parameters": [
+								{
+									"id": 2978,
+									"name": "eventsData",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"text": "The processed events array"
+									},
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "reference",
+											"id": 2610,
+											"name": "EventModel"
+										}
+									}
+								},
+								{
+									"id": 2979,
+									"name": "fields",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"text": "The event field mapping"
+									},
+									"type": {
+										"type": "reference",
+										"id": 2597,
+										"name": "EventFields"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "src/scheduler/utils/event-base.d.ts",
+							"line": 38,
+							"character": 42
+						}
+					]
+				},
+				{
 					"id": 2972,
 					"name": "getRecurrenceParent",
 					"kind": 64,
@@ -66937,80 +67023,6 @@
 							"fileName": "src/scheduler/utils/event-base.d.ts",
 							"line": 30,
 							"character": 43
-						}
-					]
-				},
-				{
-					"id": 2976,
-					"name": "getRecurrnecMaxId",
-					"kind": 64,
-					"kindString": "Function",
-					"flags": {
-						"isExported": true
-					},
-					"signatures": [
-						{
-							"id": 2977,
-							"name": "getRecurrnecMaxId",
-							"kind": 4096,
-							"kindString": "Call signature",
-							"flags": {
-								"isExported": true
-							},
-							"comment": {
-								"shortText": "Validates whether a recurring event can be dragged to a new start time",
-								"returns": "- Returns parent event\n"
-							},
-							"parameters": [
-								{
-									"id": 2978,
-									"name": "eventsData",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {
-										"isExported": true
-									},
-									"comment": {
-										"text": "The processed events array"
-									},
-									"type": {
-										"type": "array",
-										"elementType": {
-											"type": "reference",
-											"id": 2610,
-											"name": "EventModel"
-										}
-									}
-								},
-								{
-									"id": 2979,
-									"name": "fields",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {
-										"isExported": true
-									},
-									"comment": {
-										"text": "The event field mapping"
-									},
-									"type": {
-										"type": "reference",
-										"id": 2597,
-										"name": "EventFields"
-									}
-								}
-							],
-							"type": {
-								"type": "intrinsic",
-								"name": "number"
-							}
-						}
-					],
-					"sources": [
-						{
-							"fileName": "src/scheduler/utils/event-base.d.ts",
-							"line": 38,
-							"character": 41
 						}
 					]
 				},
@@ -67689,6 +67701,352 @@
 					]
 				},
 				{
+					"id": 3032,
+					"name": "showRecurrenceAlert",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 3033,
+							"name": "showRecurrenceAlert",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "Shows a recurrence alert dialog (edit, delete, or series change) based on the action type",
+								"returns": "\n"
+							},
+							"parameters": [
+								{
+									"id": 3034,
+									"name": "action",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"text": "The action type: 'recurrenceEdit', 'recurrenceDelete', or 'seriesChange'"
+									},
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "stringLiteral",
+												"value": "recurrenceEdit"
+											},
+											{
+												"type": "stringLiteral",
+												"value": "recurrenceDelete"
+											},
+											{
+												"type": "stringLiteral",
+												"value": "seriesChange"
+											}
+										]
+									}
+								},
+								{
+									"id": 3035,
+									"name": "confirmationDialog",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"text": "The confirmation dialog instance with show and hide methods"
+									},
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 3036,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {
+												"isExported": true
+											},
+											"children": [
+												{
+													"id": 3041,
+													"name": "hide",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true
+													},
+													"sources": [
+														{
+															"fileName": "src/scheduler/utils/event-base.d.ts",
+															"line": 116,
+															"character": 8
+														}
+													],
+													"type": {
+														"type": "reflection",
+														"declaration": {
+															"id": 3042,
+															"name": "__type",
+															"kind": 65536,
+															"kindString": "Type literal",
+															"flags": {
+																"isExported": true
+															},
+															"signatures": [
+																{
+																	"id": 3043,
+																	"name": "__call",
+																	"kind": 4096,
+																	"kindString": "Call signature",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "void"
+																	}
+																}
+															],
+															"sources": [
+																{
+																	"fileName": "src/scheduler/utils/event-base.d.ts",
+																	"line": 116,
+																	"character": 9
+																}
+															]
+														}
+													}
+												},
+												{
+													"id": 3037,
+													"name": "show",
+													"kind": 32,
+													"kindString": "Variable",
+													"flags": {
+														"isExported": true
+													},
+													"sources": [
+														{
+															"fileName": "src/scheduler/utils/event-base.d.ts",
+															"line": 115,
+															"character": 8
+														}
+													],
+													"type": {
+														"type": "reflection",
+														"declaration": {
+															"id": 3038,
+															"name": "__type",
+															"kind": 65536,
+															"kindString": "Type literal",
+															"flags": {
+																"isExported": true
+															},
+															"signatures": [
+																{
+																	"id": 3039,
+																	"name": "__call",
+																	"kind": 4096,
+																	"kindString": "Call signature",
+																	"flags": {
+																		"isExported": true
+																	},
+																	"parameters": [
+																		{
+																			"id": 3040,
+																			"name": "options",
+																			"kind": 32768,
+																			"kindString": "Parameter",
+																			"flags": {
+																				"isExported": true
+																			},
+																			"type": {
+																				"type": "intrinsic",
+																				"name": "any"
+																			}
+																		}
+																	],
+																	"type": {
+																		"type": "intrinsic",
+																		"name": "void"
+																	}
+																}
+															],
+															"sources": [
+																{
+																	"fileName": "src/scheduler/utils/event-base.d.ts",
+																	"line": 115,
+																	"character": 9
+																}
+															]
+														}
+													}
+												}
+											],
+											"groups": [
+												{
+													"title": "Variables",
+													"kind": 32,
+													"children": [
+														3041,
+														3037
+													]
+												}
+											],
+											"sources": [
+												{
+													"fileName": "src/scheduler/utils/event-base.d.ts",
+													"line": 114,
+													"character": 127
+												}
+											]
+										}
+									}
+								},
+								{
+									"id": 3044,
+									"name": "getString",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"text": "Function to get localized strings"
+									},
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 3045,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {
+												"isExported": true
+											},
+											"signatures": [
+												{
+													"id": 3046,
+													"name": "__call",
+													"kind": 4096,
+													"kindString": "Call signature",
+													"flags": {
+														"isExported": true
+													},
+													"parameters": [
+														{
+															"id": 3047,
+															"name": "key",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {
+																"isExported": true
+															},
+															"type": {
+																"type": "intrinsic",
+																"name": "string"
+															}
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "string"
+													}
+												}
+											],
+											"sources": [
+												{
+													"fileName": "src/scheduler/utils/event-base.d.ts",
+													"line": 117,
+													"character": 13
+												}
+											]
+										}
+									}
+								},
+								{
+									"id": 3048,
+									"name": "onSelect",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"text": "Callback when user selects an option"
+									},
+									"type": {
+										"type": "reflection",
+										"declaration": {
+											"id": 3049,
+											"name": "__type",
+											"kind": 65536,
+											"kindString": "Type literal",
+											"flags": {
+												"isExported": true
+											},
+											"signatures": [
+												{
+													"id": 3050,
+													"name": "__call",
+													"kind": 4096,
+													"kindString": "Call signature",
+													"flags": {
+														"isExported": true
+													},
+													"parameters": [
+														{
+															"id": 3051,
+															"name": "selectOption",
+															"kind": 32768,
+															"kindString": "Parameter",
+															"flags": {
+																"isExported": true
+															},
+															"type": {
+																"type": "intrinsic",
+																"name": "any"
+															}
+														}
+													],
+													"type": {
+														"type": "intrinsic",
+														"name": "void"
+													}
+												}
+											],
+											"sources": [
+												{
+													"fileName": "src/scheduler/utils/event-base.d.ts",
+													"line": 117,
+													"character": 48
+												}
+											]
+										}
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "src/scheduler/utils/event-base.d.ts",
+							"line": 114,
+							"character": 43
+						}
+					]
+				},
+				{
 					"id": 2980,
 					"name": "updateDatasource",
 					"kind": 64,
@@ -67977,11 +68335,12 @@
 					"children": [
 						2965,
 						2961,
-						2972,
 						2976,
+						2972,
 						3002,
 						2995,
 						3010,
+						3032,
 						2980,
 						2989
 					]
@@ -67996,7 +68355,7 @@
 			]
 		},
 		{
-			"id": 3032,
+			"id": 3052,
 			"name": "\"scheduler/utils/merge-utils.d\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -68006,7 +68365,7 @@
 			"originalName": "D:/Scheduler/z-recurrence/latest/without-ny-changes/react-schedule-component/src/scheduler/utils/merge-utils.d.ts",
 			"children": [
 				{
-					"id": 3033,
+					"id": 3053,
 					"name": "deepMerge",
 					"kind": 64,
 					"kindString": "Function",
@@ -68016,7 +68375,7 @@
 					},
 					"signatures": [
 						{
-							"id": 3034,
+							"id": 3054,
 							"name": "deepMerge",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -68036,7 +68395,7 @@
 							},
 							"typeParameter": [
 								{
-									"id": 3035,
+									"id": 3055,
 									"name": "T",
 									"kind": 131072,
 									"kindString": "Type parameter",
@@ -68051,7 +68410,7 @@
 							],
 							"parameters": [
 								{
-									"id": 3036,
+									"id": 3056,
 									"name": "target",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -68071,7 +68430,7 @@
 									}
 								},
 								{
-									"id": 3037,
+									"id": 3057,
 									"name": "source",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -68116,7 +68475,7 @@
 					]
 				},
 				{
-					"id": 3038,
+					"id": 3058,
 					"name": "mergeSchedulerProps",
 					"kind": 64,
 					"kindString": "Function",
@@ -68126,7 +68485,7 @@
 					},
 					"signatures": [
 						{
-							"id": 3039,
+							"id": 3059,
 							"name": "mergeSchedulerProps",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -68140,7 +68499,7 @@
 							},
 							"parameters": [
 								{
-									"id": 3040,
+									"id": 3060,
 									"name": "defaultProps",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -68163,7 +68522,7 @@
 									}
 								},
 								{
-									"id": 3041,
+									"id": 3061,
 									"name": "userProps",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -68213,8 +68572,8 @@
 					"title": "Functions",
 					"kind": 64,
 					"children": [
-						3033,
-						3038
+						3053,
+						3058
 					]
 				}
 			],
@@ -68227,7 +68586,7 @@
 			]
 		},
 		{
-			"id": 3042,
+			"id": 3062,
 			"name": "\"scheduler/views/day-view.d\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -68237,7 +68596,7 @@
 			"originalName": "D:/Scheduler/z-recurrence/latest/without-ny-changes/react-schedule-component/src/scheduler/views/day-view.d.ts",
 			"children": [
 				{
-					"id": 3043,
+					"id": 3063,
 					"name": "DayView",
 					"kind": 32,
 					"kindString": "Variable",
@@ -68270,7 +68629,7 @@
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						3043
+						3063
 					]
 				}
 			],
@@ -68283,7 +68642,7 @@
 			]
 		},
 		{
-			"id": 3044,
+			"id": 3064,
 			"name": "\"scheduler/views/month-view.d\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -68293,7 +68652,7 @@
 			"originalName": "D:/Scheduler/z-recurrence/latest/without-ny-changes/react-schedule-component/src/scheduler/views/month-view.d.ts",
 			"children": [
 				{
-					"id": 3045,
+					"id": 3065,
 					"name": "MonthView",
 					"kind": 32,
 					"kindString": "Variable",
@@ -68326,7 +68685,7 @@
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						3045
+						3065
 					]
 				}
 			],
@@ -68339,7 +68698,7 @@
 			]
 		},
 		{
-			"id": 3046,
+			"id": 3066,
 			"name": "\"scheduler/views/vertical-view.d\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -68349,7 +68708,7 @@
 			"originalName": "D:/Scheduler/z-recurrence/latest/without-ny-changes/react-schedule-component/src/scheduler/views/vertical-view.d.ts",
 			"children": [
 				{
-					"id": 3047,
+					"id": 3067,
 					"name": "VerticalView",
 					"kind": 32,
 					"kindString": "Variable",
@@ -68382,7 +68741,7 @@
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						3047
+						3067
 					]
 				}
 			],
@@ -68395,7 +68754,7 @@
 			]
 		},
 		{
-			"id": 3048,
+			"id": 3068,
 			"name": "\"scheduler/views/week-view.d\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -68405,7 +68764,7 @@
 			"originalName": "D:/Scheduler/z-recurrence/latest/without-ny-changes/react-schedule-component/src/scheduler/views/week-view.d.ts",
 			"children": [
 				{
-					"id": 3049,
+					"id": 3069,
 					"name": "WeekView",
 					"kind": 32,
 					"kindString": "Variable",
@@ -68438,7 +68797,7 @@
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						3049
+						3069
 					]
 				}
 			],
@@ -68451,7 +68810,7 @@
 			]
 		},
 		{
-			"id": 3050,
+			"id": 3070,
 			"name": "\"scheduler/views/work-week-view.d\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -68461,7 +68820,7 @@
 			"originalName": "D:/Scheduler/z-recurrence/latest/without-ny-changes/react-schedule-component/src/scheduler/views/work-week-view.d.ts",
 			"children": [
 				{
-					"id": 3051,
+					"id": 3071,
 					"name": "WorkWeekView",
 					"kind": 32,
 					"kindString": "Variable",
@@ -68494,7 +68853,7 @@
 					"title": "Variables",
 					"kind": 32,
 					"children": [
-						3051
+						3071
 					]
 				}
 			],
@@ -68540,12 +68899,12 @@
 				773,
 				775,
 				777,
-				3052,
-				3054,
-				3056,
-				3058,
-				3067,
-				3153,
+				3072,
+				3074,
+				3076,
+				3078,
+				3087,
+				3173,
 				788,
 				792,
 				794,
@@ -68600,12 +68959,12 @@
 				2893,
 				2958,
 				2960,
-				3032,
-				3042,
-				3044,
-				3046,
-				3048,
-				3050
+				3052,
+				3062,
+				3064,
+				3066,
+				3068,
+				3070
 			]
 		}
 	]

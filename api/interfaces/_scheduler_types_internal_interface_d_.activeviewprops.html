@@ -2565,10 +2565,10 @@ img {
 					<a href="_scheduler_types_internal_interface_d_.activeviewprops.html#showquickinfopopup" class="tsd-kind-icon">show<wbr>Quick<wbr>Info<wbr>Popup</a>
 				</li>
 				<li class=" tsd-kind-property tsd-parent-kind-interface">
-					<a href="_scheduler_types_internal_interface_d_.activeviewprops.html#showrecurrencealert" class="tsd-kind-icon">show<wbr>Recurrence<wbr>Alert</a>
+					<a href="_scheduler_types_internal_interface_d_.activeviewprops.html#showrecurrencedeletealert" class="tsd-kind-icon">show<wbr>Recurrence<wbr>Delete<wbr>Alert</a>
 				</li>
 				<li class=" tsd-kind-property tsd-parent-kind-interface">
-					<a href="_scheduler_types_internal_interface_d_.activeviewprops.html#showrecurrencedeletealert" class="tsd-kind-icon">show<wbr>Recurrence<wbr>Delete<wbr>Alert</a>
+					<a href="_scheduler_types_internal_interface_d_.activeviewprops.html#showrecurrenceeditalert" class="tsd-kind-icon">show<wbr>Recurrence<wbr>Edit<wbr>Alert</a>
 				</li>
 				<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
 					<a href="_scheduler_types_internal_interface_d_.activeviewprops.html#showtimeindicator" class="tsd-kind-icon">show<wbr>Time<wbr>Indicator</a>
@@ -2755,8 +2755,8 @@ img {
 							<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="_scheduler_types_internal_interface_d_.activeviewprops.html#selecteddate" class="tsd-kind-icon">selected<wbr>Date</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_scheduler_types_internal_interface_d_.activeviewprops.html#showdeletealert" class="tsd-kind-icon">show<wbr>Delete<wbr>Alert</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="_scheduler_types_internal_interface_d_.activeviewprops.html#showquickinfopopup" class="tsd-kind-icon">show<wbr>Quick<wbr>Info<wbr>Popup</a></li>
-							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_scheduler_types_internal_interface_d_.activeviewprops.html#showrecurrencealert" class="tsd-kind-icon">show<wbr>Recurrence<wbr>Alert</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_scheduler_types_internal_interface_d_.activeviewprops.html#showrecurrencedeletealert" class="tsd-kind-icon">show<wbr>Recurrence<wbr>Delete<wbr>Alert</a></li>
+							<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_scheduler_types_internal_interface_d_.activeviewprops.html#showrecurrenceeditalert" class="tsd-kind-icon">show<wbr>Recurrence<wbr>Edit<wbr>Alert</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="_scheduler_types_internal_interface_d_.activeviewprops.html#showtimeindicator" class="tsd-kind-icon">show<wbr>Time<wbr>Indicator</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="_scheduler_types_internal_interface_d_.activeviewprops.html#showtrailingandleadingdates" class="tsd-kind-icon">show<wbr>Trailing<wbr>And<wbr>Leading<wbr>Dates</a></li>
 							<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-overwrite tsd-is-inherited"><a href="_scheduler_types_internal_interface_d_.activeviewprops.html#showweeknumber" class="tsd-kind-icon">show<wbr>Week<wbr>Number</a></li>
@@ -4722,9 +4722,68 @@ img {
 				</div>
 			</section>
 			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-				<a name="showrecurrencealert" class="tsd-anchor"></a>
-				<h3><span class="tsd-flag ts-flagOptional">Optional</span> show<wbr>Recurrence<wbr>Alert</h3>
-				<div class="tsd-signature tsd-kind-icon">show<wbr>Recurrence<wbr>Alert<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>onEditThisEvent<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span>, onEditSeries<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
+				<a name="showrecurrencedeletealert" class="tsd-anchor"></a>
+				<h3><span class="tsd-flag ts-flagOptional">Optional</span> show<wbr>Recurrence<wbr>Delete<wbr>Alert</h3>
+				<div class="tsd-signature tsd-kind-icon">show<wbr>Recurrence<wbr>Delete<wbr>Alert<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>onSelect<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>selectOption<span class="tsd-signature-symbol">: </span><a href="../modules/_scheduler_types_enums_d_.html#recurrenceeditaction" class="tsd-signature-type">RecurrenceEditAction</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in src/scheduler/types/internal-interface.d.ts:74</li>
+					</ul>
+				</aside>
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Handler to show recurrence confirmation dialog when deleting recurring events</p>
+					</div>
+					<dl class="tsd-comment-tags">
+						<dt>param</dt>
+						<dd><p>Callback function that receives &#39;occurrence&#39; or &#39;series&#39; action</p>
+						</dd>
+					</dl>
+				</div>
+				<div class="tsd-type-declaration">
+					<h4>Type declaration</h4>
+					<ul class="tsd-parameters">
+						<li class="tsd-parameter-siganture">
+							<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-property">
+								<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>onSelect<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>selectOption<span class="tsd-signature-symbol">: </span><a href="../modules/_scheduler_types_enums_d_.html#recurrenceeditaction" class="tsd-signature-type">RecurrenceEditAction</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+							</ul>
+							<ul class="tsd-descriptions">
+								<li class="tsd-description">
+									<h4 class="tsd-parameters-title">Parameters</h4>
+									<ul class="tsd-parameters">
+										<li>
+											<h5>onSelect: <span class="tsd-signature-symbol">(</span>selectOption<span class="tsd-signature-symbol">: </span><a href="../modules/_scheduler_types_enums_d_.html#recurrenceeditaction" class="tsd-signature-type">RecurrenceEditAction</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></h5>
+											<ul class="tsd-parameters">
+												<li class="tsd-parameter-siganture">
+													<ul class="tsd-signatures tsd-kind-type-literal">
+														<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>selectOption<span class="tsd-signature-symbol">: </span><a href="../modules/_scheduler_types_enums_d_.html#recurrenceeditaction" class="tsd-signature-type">RecurrenceEditAction</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+													</ul>
+													<ul class="tsd-descriptions">
+														<li class="tsd-description">
+															<h4 class="tsd-parameters-title">Parameters</h4>
+															<ul class="tsd-parameters">
+																<li>
+																	<h5>selectOption: <a href="../modules/_scheduler_types_enums_d_.html#recurrenceeditaction" class="tsd-signature-type">RecurrenceEditAction</a></h5>
+																</li>
+															</ul>
+															<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+														</li>
+													</ul>
+												</li>
+											</ul>
+										</li>
+									</ul>
+									<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+				<a name="showrecurrenceeditalert" class="tsd-anchor"></a>
+				<h3><span class="tsd-flag ts-flagOptional">Optional</span> show<wbr>Recurrence<wbr>Edit<wbr>Alert</h3>
+				<div class="tsd-signature tsd-kind-icon">show<wbr>Recurrence<wbr>Edit<wbr>Alert<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>onEditThisEvent<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span>, onEditSeries<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 				<aside class="tsd-sources">
 					<ul>
 						<li>Defined in src/scheduler/types/internal-interface.d.ts:68</li>
@@ -4778,65 +4837,6 @@ img {
 													</ul>
 													<ul class="tsd-descriptions">
 														<li class="tsd-description">
-															<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
-														</li>
-													</ul>
-												</li>
-											</ul>
-										</li>
-									</ul>
-									<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
-								</li>
-							</ul>
-						</li>
-					</ul>
-				</div>
-			</section>
-			<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-				<a name="showrecurrencedeletealert" class="tsd-anchor"></a>
-				<h3><span class="tsd-flag ts-flagOptional">Optional</span> show<wbr>Recurrence<wbr>Delete<wbr>Alert</h3>
-				<div class="tsd-signature tsd-kind-icon">show<wbr>Recurrence<wbr>Delete<wbr>Alert<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>onSelect<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>selectOption<span class="tsd-signature-symbol">: </span><a href="../modules/_scheduler_types_enums_d_.html#recurrenceeditaction" class="tsd-signature-type">RecurrenceEditAction</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
-				<aside class="tsd-sources">
-					<ul>
-						<li>Defined in src/scheduler/types/internal-interface.d.ts:74</li>
-					</ul>
-				</aside>
-				<div class="tsd-comment tsd-typography">
-					<div class="lead">
-						<p>Handler to show recurrence confirmation dialog when deleting recurring events</p>
-					</div>
-					<dl class="tsd-comment-tags">
-						<dt>param</dt>
-						<dd><p>Callback function that receives &#39;occurrence&#39; or &#39;series&#39; action</p>
-						</dd>
-					</dl>
-				</div>
-				<div class="tsd-type-declaration">
-					<h4>Type declaration</h4>
-					<ul class="tsd-parameters">
-						<li class="tsd-parameter-siganture">
-							<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-property">
-								<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>onSelect<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>selectOption<span class="tsd-signature-symbol">: </span><a href="../modules/_scheduler_types_enums_d_.html#recurrenceeditaction" class="tsd-signature-type">RecurrenceEditAction</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
-							</ul>
-							<ul class="tsd-descriptions">
-								<li class="tsd-description">
-									<h4 class="tsd-parameters-title">Parameters</h4>
-									<ul class="tsd-parameters">
-										<li>
-											<h5>onSelect: <span class="tsd-signature-symbol">(</span>selectOption<span class="tsd-signature-symbol">: </span><a href="../modules/_scheduler_types_enums_d_.html#recurrenceeditaction" class="tsd-signature-type">RecurrenceEditAction</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></h5>
-											<ul class="tsd-parameters">
-												<li class="tsd-parameter-siganture">
-													<ul class="tsd-signatures tsd-kind-type-literal">
-														<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>selectOption<span class="tsd-signature-symbol">: </span><a href="../modules/_scheduler_types_enums_d_.html#recurrenceeditaction" class="tsd-signature-type">RecurrenceEditAction</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
-													</ul>
-													<ul class="tsd-descriptions">
-														<li class="tsd-description">
-															<h4 class="tsd-parameters-title">Parameters</h4>
-															<ul class="tsd-parameters">
-																<li>
-																	<h5>selectOption: <a href="../modules/_scheduler_types_enums_d_.html#recurrenceeditaction" class="tsd-signature-type">RecurrenceEditAction</a></h5>
-																</li>
-															</ul>
 															<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
 														</li>
 													</ul>
