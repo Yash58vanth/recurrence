@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Direction | Syncfusion React</title>
+	<title>CrudAction | Syncfusion React</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<style type="text/css">/*! normalize.css v1.1.3 | MIT License | git.io/normalize */
@@ -2369,25 +2369,46 @@ img {
 		<li class=" tsd-kind-enum tsd-parent-kind-external-module">
 			<a href="_scheduler_types_enums_d_.alerttype.html" class="tsd-kind-icon">Alert<wbr>Type</a>
 		</li>
-		<li class=" tsd-kind-enum tsd-parent-kind-external-module">
+		<li class="current tsd-kind-enum tsd-parent-kind-external-module">
 			<a href="_scheduler_types_enums_d_.crudaction.html" class="tsd-kind-icon">Crud<wbr>Action</a>
-		</li>
-		<li class="current tsd-kind-enum tsd-parent-kind-external-module tsd-is-private">
-			<a href="_scheduler_types_enums_d_.direction.html" class="tsd-kind-icon">Direction</a>
 			<ul>
 				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
-					<a href="_scheduler_types_enums_d_.direction.html#down" class="tsd-kind-icon">Down</a>
+					<a href="_scheduler_types_enums_d_.crudaction.html#add" class="tsd-kind-icon">Add</a>
 				</li>
 				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
-					<a href="_scheduler_types_enums_d_.direction.html#left" class="tsd-kind-icon">Left</a>
+					<a href="_scheduler_types_enums_d_.crudaction.html#delete" class="tsd-kind-icon">Delete</a>
 				</li>
 				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
-					<a href="_scheduler_types_enums_d_.direction.html#right" class="tsd-kind-icon">Right</a>
+					<a href="_scheduler_types_enums_d_.crudaction.html#deletefollowingevents" class="tsd-kind-icon">Delete<wbr>Following<wbr>Events</a>
 				</li>
 				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
-					<a href="_scheduler_types_enums_d_.direction.html#up" class="tsd-kind-icon">Up</a>
+					<a href="_scheduler_types_enums_d_.crudaction.html#deleteoccurrence" class="tsd-kind-icon">Delete<wbr>Occurrence</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="_scheduler_types_enums_d_.crudaction.html#deleteseries" class="tsd-kind-icon">Delete<wbr>Series</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="_scheduler_types_enums_d_.crudaction.html#edit" class="tsd-kind-icon">Edit</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="_scheduler_types_enums_d_.crudaction.html#editcurrentseries" class="tsd-kind-icon">Edit<wbr>Current<wbr>Series</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="_scheduler_types_enums_d_.crudaction.html#editentireseries" class="tsd-kind-icon">Edit<wbr>Entire<wbr>Series</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="_scheduler_types_enums_d_.crudaction.html#editfollowingevents" class="tsd-kind-icon">Edit<wbr>Following<wbr>Events</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="_scheduler_types_enums_d_.crudaction.html#editoccurrence" class="tsd-kind-icon">Edit<wbr>Occurrence</a>
+				</li>
+				<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
+					<a href="_scheduler_types_enums_d_.crudaction.html#editseries" class="tsd-kind-icon">Edit<wbr>Series</a>
 				</li>
 			</ul>
+		</li>
+		<li class=" tsd-kind-enum tsd-parent-kind-external-module tsd-is-private">
+			<a href="_scheduler_types_enums_d_.direction.html" class="tsd-kind-icon">Direction</a>
 		</li>
 		<li class=" tsd-kind-enum tsd-parent-kind-external-module">
 			<a href="_scheduler_types_enums_d_.recurrenceeditaction.html" class="tsd-kind-icon">Recurrence<wbr>Edit<wbr>Action</a>
@@ -2411,12 +2432,19 @@ img {
 		<section class="tsd-panel tsd-comment">
 			<div class="tsd-comment tsd-typography">
 				<div class="lead">
-					<p>Represents keyboard navigation directions used within the Scheduler.</p>
+					<p>An enum that represents the action performed when opening the editor.</p>
 				</div>
-				<p>Left: Move focus to the previous work cell (or wrap to the end of the previous row).
-					Right: Move focus to the next work cell (or wrap to the start of the next row).
-					Up: Move focus to the work cell in the previous row, same column when possible.
-				Down: Move focus to the work cell in the next row, same column when possible.</p>
+				<p>Add: Opens the editor to create a new event.
+					Edit: Opens the editor to modify an existing event.
+					EditSeries: Opens the editor to modify an entire recurring event series.
+					EditCurrentSeries: Opens the editor to modify the current occurrences of a recurring event.
+					EditEntireSeries: Opens the editor to modify the entire series of a recurring event.
+					EditOccurrence: Opens the editor to modify a specific occurrence of a recurring event.
+					Delete: Opens a editor to delete a specific occurrence of a recurring event.
+					DeleteOccurrence: Opens a confirmation dialog to delete a specific occurrence of a recurring event.
+					DeleteSeries: Opens a confirmation dialog to delete an entire recurring event series.
+					EditFollowingEvents: Opens the editor to modify the current and following occurrences of a recurring event.
+				DeleteFollowingEvents: Opens a confirmation dialog to delete the current and following occurrences of a recurring event.</p>
 			</div>
 		</section>
 		<section class="tsd-panel-group tsd-index-group">
@@ -2426,10 +2454,17 @@ img {
 					<section class="tsd-index-section ">
 						<h3>Enumeration members</h3>
 						<ul class="tsd-index-list">
-							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="_scheduler_types_enums_d_.direction.html#down" class="tsd-kind-icon">Down</a></li>
-							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="_scheduler_types_enums_d_.direction.html#left" class="tsd-kind-icon">Left</a></li>
-							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="_scheduler_types_enums_d_.direction.html#right" class="tsd-kind-icon">Right</a></li>
-							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="_scheduler_types_enums_d_.direction.html#up" class="tsd-kind-icon">Up</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="_scheduler_types_enums_d_.crudaction.html#add" class="tsd-kind-icon">Add</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="_scheduler_types_enums_d_.crudaction.html#delete" class="tsd-kind-icon">Delete</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="_scheduler_types_enums_d_.crudaction.html#deletefollowingevents" class="tsd-kind-icon">Delete<wbr>Following<wbr>Events</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="_scheduler_types_enums_d_.crudaction.html#deleteoccurrence" class="tsd-kind-icon">Delete<wbr>Occurrence</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="_scheduler_types_enums_d_.crudaction.html#deleteseries" class="tsd-kind-icon">Delete<wbr>Series</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="_scheduler_types_enums_d_.crudaction.html#edit" class="tsd-kind-icon">Edit</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="_scheduler_types_enums_d_.crudaction.html#editcurrentseries" class="tsd-kind-icon">Edit<wbr>Current<wbr>Series</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="_scheduler_types_enums_d_.crudaction.html#editentireseries" class="tsd-kind-icon">Edit<wbr>Entire<wbr>Series</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="_scheduler_types_enums_d_.crudaction.html#editfollowingevents" class="tsd-kind-icon">Edit<wbr>Following<wbr>Events</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="_scheduler_types_enums_d_.crudaction.html#editoccurrence" class="tsd-kind-icon">Edit<wbr>Occurrence</a></li>
+							<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="_scheduler_types_enums_d_.crudaction.html#editseries" class="tsd-kind-icon">Edit<wbr>Series</a></li>
 						</ul>
 					</section>
 				</div>
@@ -2438,62 +2473,167 @@ img {
 		<section class="tsd-panel-group tsd-member-group ">
 			<h2>Enumeration members</h2>
 			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
-				<a name="down" class="tsd-anchor"></a>
-				<h3>Down</h3>
-				<div class="tsd-signature tsd-kind-icon">Down<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;down&quot;</span></div>
+				<a name="add" class="tsd-anchor"></a>
+				<h3>Add</h3>
+				<div class="tsd-signature tsd-kind-icon">Add<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;Add&quot;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/scheduler/types/enums.d.ts:86</li>
+						<li>Defined in src/scheduler/types/enums.d.ts:39</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>Move focus to the work cell below</p>
+						<p>Add new event</p>
 					</div>
 				</div>
 			</section>
 			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
-				<a name="left" class="tsd-anchor"></a>
-				<h3>Left</h3>
-				<div class="tsd-signature tsd-kind-icon">Left<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;left&quot;</span></div>
+				<a name="delete" class="tsd-anchor"></a>
+				<h3>Delete</h3>
+				<div class="tsd-signature tsd-kind-icon">Delete<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;Delete&quot;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/scheduler/types/enums.d.ts:80</li>
+						<li>Defined in src/scheduler/types/enums.d.ts:51</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>Move focus to the previous work cell</p>
+						<p>Delete single occurrence</p>
 					</div>
 				</div>
 			</section>
 			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
-				<a name="right" class="tsd-anchor"></a>
-				<h3>Right</h3>
-				<div class="tsd-signature tsd-kind-icon">Right<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;right&quot;</span></div>
+				<a name="deletefollowingevents" class="tsd-anchor"></a>
+				<h3>Delete<wbr>Following<wbr>Events</h3>
+				<div class="tsd-signature tsd-kind-icon">Delete<wbr>Following<wbr>Events<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;DeleteFollowingEvents&quot;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/scheduler/types/enums.d.ts:82</li>
+						<li>Defined in src/scheduler/types/enums.d.ts:59</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>Move focus to the next work cell</p>
+						<p>Delete following events</p>
 					</div>
 				</div>
 			</section>
 			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
-				<a name="up" class="tsd-anchor"></a>
-				<h3>Up</h3>
-				<div class="tsd-signature tsd-kind-icon">Up<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;up&quot;</span></div>
+				<a name="deleteoccurrence" class="tsd-anchor"></a>
+				<h3>Delete<wbr>Occurrence</h3>
+				<div class="tsd-signature tsd-kind-icon">Delete<wbr>Occurrence<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;DeleteOccurrence&quot;</span></div>
 				<aside class="tsd-sources">
 					<ul>
-						<li>Defined in src/scheduler/types/enums.d.ts:84</li>
+						<li>Defined in src/scheduler/types/enums.d.ts:53</li>
 					</ul>
 				</aside>
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>Move focus to the work cell above</p>
+						<p>Delete single occurrence</p>
+					</div>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="deleteseries" class="tsd-anchor"></a>
+				<h3>Delete<wbr>Series</h3>
+				<div class="tsd-signature tsd-kind-icon">Delete<wbr>Series<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;DeleteSeries&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in src/scheduler/types/enums.d.ts:55</li>
+					</ul>
+				</aside>
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Delete series</p>
+					</div>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="edit" class="tsd-anchor"></a>
+				<h3>Edit</h3>
+				<div class="tsd-signature tsd-kind-icon">Edit<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;Edit&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in src/scheduler/types/enums.d.ts:41</li>
+					</ul>
+				</aside>
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Edit event</p>
+					</div>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="editcurrentseries" class="tsd-anchor"></a>
+				<h3>Edit<wbr>Current<wbr>Series</h3>
+				<div class="tsd-signature tsd-kind-icon">Edit<wbr>Current<wbr>Series<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;EditCurrentSeries&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in src/scheduler/types/enums.d.ts:45</li>
+					</ul>
+				</aside>
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Edit current series</p>
+					</div>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="editentireseries" class="tsd-anchor"></a>
+				<h3>Edit<wbr>Entire<wbr>Series</h3>
+				<div class="tsd-signature tsd-kind-icon">Edit<wbr>Entire<wbr>Series<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;EditEntireSeries&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in src/scheduler/types/enums.d.ts:47</li>
+					</ul>
+				</aside>
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Edit entire series</p>
+					</div>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="editfollowingevents" class="tsd-anchor"></a>
+				<h3>Edit<wbr>Following<wbr>Events</h3>
+				<div class="tsd-signature tsd-kind-icon">Edit<wbr>Following<wbr>Events<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;EditFollowingEvents&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in src/scheduler/types/enums.d.ts:57</li>
+					</ul>
+				</aside>
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Edit following events</p>
+					</div>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="editoccurrence" class="tsd-anchor"></a>
+				<h3>Edit<wbr>Occurrence</h3>
+				<div class="tsd-signature tsd-kind-icon">Edit<wbr>Occurrence<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;EditOccurrence&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in src/scheduler/types/enums.d.ts:49</li>
+					</ul>
+				</aside>
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Edit single occurrence</p>
+					</div>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
+				<a name="editseries" class="tsd-anchor"></a>
+				<h3>Edit<wbr>Series</h3>
+				<div class="tsd-signature tsd-kind-icon">Edit<wbr>Series<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;EditSeries&quot;</span></div>
+				<aside class="tsd-sources">
+					<ul>
+						<li>Defined in src/scheduler/types/enums.d.ts:43</li>
+					</ul>
+				</aside>
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Edit series</p>
 					</div>
 				</div>
 			</section>
